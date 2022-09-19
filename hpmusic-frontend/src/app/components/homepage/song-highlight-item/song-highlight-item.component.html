@@ -1,0 +1,33 @@
+<div class="title">
+  <div class="control">
+    <a href="#"><span class="fa fa-spinner">&nbsp;</span>Tiếp theo</a>
+    <a href="#"><span class="fa fa-play-circle">&nbsp;</span>Chơi tất cả</a>
+  </div>
+</div>
+<div class="list-item">
+  <div class="item" *ngFor="let song of highlightMusic; let songIdx = index">
+    <div class="normal" style="" (mouseenter)="currentIdx = songIdx" *ngIf="currentIdx !== songIdx">
+      <a class="song-name" href="{{song.songId}}">{{song.songName}}</a>
+      <a class="singer" href="{{song.userAvt}}">{{song.username}}</a>
+    </div>
+    <div class="hover" *ngIf="currentIdx === songIdx">
+      <div class="hover1">
+        <a href="{{song.songId}}">
+          <img src="{{song.userAvt}}" alt="avatar"></a>
+        <p class="theloai">{{song.songType}}</p>
+      </div>
+      <div class="hover2">
+        <p>
+          <a class="song-name" href="{{song.songId}}">{{song.songName}}</a>
+          <a href="" class="playlist"><span class="fa fa-headphones"></span></a>
+        </p>
+        <p>
+          <a class="singer" href="{{song.userAvt}}">{{song.username}}</a>
+        </p>
+        <p class="info">
+          {{song.songShortInfo}}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

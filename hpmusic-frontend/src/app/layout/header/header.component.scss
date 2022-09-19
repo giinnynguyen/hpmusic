@@ -1,0 +1,121 @@
+.header-wrap {
+  width: 100%;
+  height: 30px;
+  min-width: 1000px;
+  text-align: center;
+  background-color: #1A1C1E;
+
+  .header {
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+
+    h4 {
+      float: left;
+      padding-top: 8px;
+      color: #919191;
+    }
+
+    .search-box {
+      width: 262px;
+      float: left;
+
+      .search {
+        position: relative;
+        width: 100%;
+        height: 100%;
+
+        input {
+          &:focus {
+            outline: none;
+          }
+
+          &[type='text'] {
+            width: 200px;
+            height: 20px;
+            float: left;
+            margin-top: 1px;
+            border: 0;
+            padding-left: 20px;
+            background: transparent;
+            color: #999;
+            font-family: Courier;
+            border-bottom: 1px solid #919191;
+          }
+        }
+
+
+        .fa-search {
+          color: #919191;
+          cursor: pointer;
+          padding: 5px;
+          float: left;
+        }
+      }
+    }
+
+    .top-nav {
+      float: right;
+
+      ul {
+        float: left;
+
+        li {
+          position: relative;
+          float: left;
+          height: 30px;
+
+          a {
+            color: #919191;
+            padding: 0 8px;
+            display: block;
+            text-decoration: none;
+            line-height: 30px;
+
+            ::ng-deep mat-icon {
+              line-height: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
+.nav-wrap {
+  width: 100%;
+  min-width: 1000px;
+  text-align: center;
+  background: #222322;
+  -webkit-box-shadow: 0 0 0 1px rgb(51 51 51) inset;
+  -moz-box-shadow: 0 0 0 1px rgb(51, 51, 51) inset;
+  -ms-box-shadow: 0 0 0 1px rgb(51, 51, 51) inset;
+  box-shadow: 0 0 0 1px rgb(51 51 51) inset;
+
+  .nav {
+    width: 1000px;
+    margin: 0 auto;
+    height: 38px;
+    line-height: 38px;
+    display: flex;
+
+    ul {
+      li {
+        float: left;
+        margin-right: 20px;
+
+        a {
+          display: block;
+          padding-right: 15px;
+          height: 34px;
+          line-height: 38px;
+          border-bottom: 4px solid #222322;
+          font-size: 14px;
+          color: #fff;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
