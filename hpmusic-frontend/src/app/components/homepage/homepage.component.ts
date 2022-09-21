@@ -1,6 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {MenuItem} from 'primeng/api';
-import {HIGHLIGHT_MUSIC} from "../../dummyData/homepage";
+import {NEW_SONGS, RANKS, TOP_SINGER} from "../../dummyData/homepage";
 
 @Component({
   selector: 'hps-homepage',
@@ -12,6 +11,10 @@ export class HomepageComponent implements OnInit {
     'Nổi bật', 'Nhạc trẻ', 'Pop', 'Dân ca', 'Nước ngoài', 'Rap/Hiphop', 'Thiếu nhi'
   ]
   currentCategoryIdx = 0;
+  musicRanks = RANKS;
+  newSongs = NEW_SONGS;
+  topSingers = TOP_SINGER;
+  currentUsserIdx = -1;
   constructor() {
   }
 

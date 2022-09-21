@@ -72,3 +72,293 @@ export const HIGHLIGHT_MUSIC = [
     songShortInfo: 'Bài hát này chưa có lời'
   }
 ]
+
+export const RANKS = [
+  {
+    songName: 'Xem Như Em Chẳng May',
+    songId: '',
+    userAvt: '',
+    username: 'ginny'
+  },
+  {
+    songName: 'Xem Như Em Chẳng May',
+    songId: '',
+    userAvt: '',
+    username: 'ginny'
+  },
+  {
+    songName: 'Xem Như Em Chẳng May',
+    songId: '',
+    userAvt: '',
+    username: 'ginny'
+  },
+  {
+    songName: 'Xem Như Em Chẳng May',
+    songId: '',
+    userAvt: '',
+    username: 'ginny'
+  },
+  {
+    songName: 'Xem Như Em Chẳng May',
+    songId: '',
+    userAvt: '',
+    username: 'ginny'
+  },
+  {
+    songName: 'Xem Như Em Chẳng May',
+    songId: '',
+    userAvt: '',
+    username: 'ginny'
+  },
+  {
+    songName: 'Xem Như Em Chẳng May',
+    songId: '',
+    userAvt: '',
+    username: 'ginny'
+  },
+  {
+    songName: 'Xem Như Em Chẳng May',
+    songId: '',
+    userAvt: '',
+    username: 'ginny'
+  },
+  {
+    songName: 'Xem Như Em Chẳng May',
+    songId: '',
+    userAvt: '',
+    username: 'ginny'
+  },
+  {
+    songName: 'Xem Như Em Chẳng May',
+    songId: '',
+    userAvt: '',
+    username: 'ginny'
+  },
+  {
+    songName: 'Xem Như Em Chẳng May',
+    songId: '',
+    userAvt: '',
+    username: 'ginny'
+  },
+  {
+    songName: 'Xem Như Em Chẳng May',
+    songId: '',
+    userAvt: '',
+    username: 'ginny'
+  },
+  {
+    songName: 'Xem Như Em Chẳng May',
+    songId: '',
+    userAvt: '',
+    username: 'ginny'
+  },
+  {
+    songName: 'Xem Như Em Chẳng May',
+    songId: '',
+    userAvt: '',
+    username: 'ginny'
+  },
+  {
+    songName: 'Xem Như Em Chẳng May',
+    songId: '',
+    userAvt: '',
+    username: 'ginny'
+  },
+  {
+    songName: 'Xem Như Em Chẳng May',
+    songId: '',
+    userAvt: '',
+    username: 'ginny'
+  },
+  {
+    songName: 'Xem Như Em Chẳng May',
+    songId: '',
+    userAvt: '',
+    username: 'ginny'
+  },
+  {
+    songName: 'Xem Như Em Chẳng May',
+    songId: '',
+    userAvt: '',
+    username: 'ginny'
+  },
+  {
+    songName: 'Xem Như Em Chẳng May',
+    songId: '',
+    userAvt: '',
+    username: 'ginny'
+  },
+  {
+    songName: 'Xem Như Em Chẳng May',
+    songId: '',
+    userAvt: '',
+    username: 'ginny'
+  }
+]
+
+export const NEW_SONGS = HIGHLIGHT_MUSIC.filter((item, index) => index < 11)
+
+export const TOP_SINGER = [
+    {
+      username: 'ginny',
+      userAvt: 'assets\\user\\ginny\\avt\\avatar.jpeg',
+      gender: 'female',
+      birthday: '20/10/1996',
+      address: 'HCM',
+      career: 'Wanderer',
+      songs: [
+        {songName: 'Hello Vietnam', songId: ''},
+        {songName: 'Hello Vietnam', songId: ''},
+        {songName: 'Hello Vietnam', songId: ''},
+        {songName: 'Hello Vietnam', songId: ''},
+        {songName: 'Hello Vietnam', songId: ''},
+        {songName: 'Hello Vietnam', songId: ''}
+      ]
+    },
+  {
+    username: 'ginny',
+    userAvt: 'assets\\user\\ginny\\avt\\avatar.jpeg',
+    gender: 'female',
+    birthday: '20/10/1996',
+    address: 'HCM',
+    career: 'Wanderer',
+    songs: [
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''}
+    ]
+  },
+  {
+    username: 'ginny',
+    userAvt: 'assets\\user\\ginny\\avt\\avatar.jpeg',
+    gender: 'female',
+    birthday: '20/10/1996',
+    address: 'HCM',
+    career: 'Wanderer',
+    songs: [
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''}
+    ]
+  },
+  {
+    username: 'ginny',
+    userAvt: 'assets\\user\\ginny\\avt\\avatar.jpeg',
+    gender: 'female',
+    birthday: '20/10/1996',
+    address: 'HCM',
+    career: 'Wanderer',
+    songs: [
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''}
+    ]
+  },
+  {
+    username: 'ginny',
+    userAvt: 'assets\\user\\ginny\\avt\\avatar.jpeg',
+    gender: 'female',
+    birthday: '20/10/1996',
+    address: 'HCM',
+    career: 'Wanderer',
+    songs: [
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''}
+    ]
+  },
+  {
+    username: 'ginny',
+    userAvt: 'assets\\user\\ginny\\avt\\avatar.jpeg',
+    gender: 'female',
+    birthday: '20/10/1996',
+    address: 'HCM',
+    career: 'Wanderer',
+    songs: [
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''}
+    ]
+  },
+  {
+    username: 'ginny',
+    userAvt: 'assets\\user\\ginny\\avt\\avatar.jpeg',
+    gender: 'female',
+    birthday: '20/10/1996',
+    address: 'HCM',
+    career: 'Wanderer',
+    songs: [
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''}
+    ]
+  },
+  {
+    username: 'ginny',
+    userAvt: 'assets\\user\\ginny\\avt\\avatar.jpeg',
+    gender: 'female',
+    birthday: '20/10/1996',
+    address: 'HCM',
+    career: 'Wanderer',
+    songs: [
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''}
+    ]
+  },
+  {
+    username: 'ginny',
+    userAvt: 'assets\\user\\ginny\\avt\\avatar.jpeg',
+    gender: 'female',
+    birthday: '20/10/1996',
+    address: 'HCM',
+    career: 'Wanderer',
+    songs: [
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''}
+    ]
+  },
+  {
+    username: 'ginny',
+    userAvt: 'assets\\user\\ginny\\avt\\avatar.jpeg',
+    gender: 'female',
+    birthday: '20/10/1996',
+    address: 'HCM',
+    career: 'Wanderer',
+    songs: [
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''},
+      {songName: 'Hello Vietnam', songId: ''}
+    ]
+  }
+]
+
+
