@@ -1,0 +1,376 @@
+.content {
+  background: #ffffff;
+  border-left: 1px solid #d5d5d2;
+  border-right: 1px solid #d5d5d2;
+  overflow: hidden;
+  zoom: 1;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 30px 10px 60px;
+  box-sizing: border-box;
+  .ct-left {
+    width: 696px;
+    margin: 0 38px 0 0;
+    width: 600px;
+    float: left;
+    margin: 0 40px 0 0;
+    display: inline;
+    .view {
+      border: 1px solid #e0e0e0;
+      margin-bottom: 0;
+      position: relative;
+      .view-title {
+        border-bottom: 2px solid #45B39D;
+        line-height: 58px;
+        h1 {
+          font-size: 24px;
+          color: #555555;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          font-weight: bold;
+          padding-left: 20px;
+          width: 570px;
+        }
+      }
+      .view-box {
+        position: relative;
+        .view-info {
+          ul {
+            overflow: hidden;
+            zoom: 1;
+            width: 470px;
+            padding: 14px 0 0 20px;
+
+            li {
+              float: left;
+              width: 150px;
+              line-height: 2;
+              margin-right: 5px;
+              height: 30px;
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis;
+
+              &.view-row {
+                width: 287px;
+              }
+
+              em {
+                color: #999;
+              }
+            }
+          }
+        }
+        .view-action {
+          margin-bottom: 12px;
+          .view-action-left {
+            height: 30px;
+            overflow: hidden;
+          }
+          ul {
+            overflow: hidden;
+            zoom: 1;
+            li {
+              float: left;
+              overflow: hidden;
+              zoom: 1;
+              a {
+                display: block;
+                padding: 0 13px;
+                height: 30px;
+                line-height: 30px;
+                overflow: hidden;
+                zoom: 1;
+                float: left;
+                color: #4caff4;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .lyric-box {
+      margin-top: 30px;
+      margin-bottom: 35px;
+      .lyric-title {
+        position: relative;
+        height: 37px;
+        .lyric-bar {
+          border-bottom: 1px solid #e3e3e3;
+          display: block;
+          width: 100%;
+          height: 1px;
+          text-indent: -9999px;
+          position: absolute;
+          top: 34px;
+          left: 0;
+        }
+        ul {
+          border-left: 1px solid #e3e3e3;
+          height: 37px;
+          position: absolute;
+          top: 0;
+          left: 0;
+          overflow: hidden;
+          zoom: 1;
+          li {
+            float: left;
+            h2 {
+              font-size: 16px;
+              font-weight: 400;
+              padding-bottom: 10px;
+              color: #888;
+              a {
+                display: block;
+                width: 95px;
+                line-height: 34px;
+                border: 1px solid #e3e3e3;
+                border-left: none;
+                background: #fcfcfc;
+                text-align: center;
+              }
+            }
+          }
+        }
+      }
+      .lyric-tabcontent {
+        border-left: 1px solid #e0e0e0;
+        border-right: 1px solid #e0e0e0;
+        border-bottom: 1px solid #e0e0e0;
+      }
+    }
+  }
+
+  .ct-right {
+    width: 260px;
+    float: right;
+    .user-info-box {
+      position: relative;
+      border: 1px solid #e0e0e0;
+      padding: 10px 0;
+      height: 70px;
+      .user-avt {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 70px;
+        height: 70px;
+        img {
+          width: 68px;
+          height: 68px;
+          border-radius: 49px;
+          border: 1px solid #e0e0e0;
+        }
+      }
+      .user-name {
+        height: 23px;
+        padding: 2px 10px 0 93px;
+        line-height: 1.5;
+        font-size: 14px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+    }
+    .player-control {
+      padding-bottom: 10px;
+      background: #fff;
+      border-left: 1px solid #e0e0e0;
+      border-right: 1px solid #e0e0e0;
+      .top-play {
+        height: 24px;
+        audio {
+          width: 100%;
+        }
+        .play-btn, .pause-btn {
+          height: 26px;
+          width: 24px;
+          margin: 0 10px 0 7px;
+          border: none;
+          outline: 0;
+          cursor: pointer;
+          float: left;
+        }
+        .play-btn {
+          background-image: url(../../../assets/play/vi_bg.png);
+          background-repeat: no-repeat;
+        }
+        .pause-btn {
+          background: url(../../../assets/play/vi_bg.png) -24px 0 no-repeat;
+          display: none;
+        }
+        .song-title {
+          width: 175px;
+          height: 24px;
+          margin: 0 0 0 0;
+          line-height: 24px;
+          font-weight: 400;
+          font-size: 13px;
+          overflow: hidden;
+          white-space: nowrap;
+          color: #666;
+          cursor: pointer;
+          text-overflow: ellipsis;
+          float: left;
+        }
+      }
+      .middle {
+        margin-top: 10px;
+        .play-progressbar {
+          position: relative;
+          height: 3px;
+          border-top: 12px solid #fff;
+          border-bottom: 6px solid #fff;
+          background: #f3f3f3;
+          width: 90%;
+          margin: auto;
+        }
+        .played-progressbar {
+          position: absolute;
+          left: 0;
+          top: 0;
+          height: 3px;
+          background: #45B39D;
+          cursor: pointer;
+          z-index: 1;
+        }
+        .played-progressbar-buffered {
+          position: absolute;
+          left: 0;
+          top: 0;
+          height: 3px;
+          background: #c4c4c4;
+          z-index: 0;
+          cursor: pointer;
+        }
+        .played-progressbar-drag {
+          position: absolute;
+          left: 0;
+          top: -2px;
+          width: 8px;
+          height: 8px;
+          border-radius: 49px;
+          background: #45B39D;
+          z-index: 2;
+          cursor: pointer;
+        }
+      }
+      .time-play {
+        width: 204px;
+        margin: 0 auto 10px;
+        color: #999;
+      }
+      .bottom {
+        margin-top: 10px;
+        .volumn-bar {
+          float: left;
+          height: 20px;
+          margin-left: 38px;
+        }
+        .volumn-icon {
+          float: left;
+          width: 16px;
+          height: 16px;
+          border-top: 2px solid #fff;
+          cursor: pointer;
+          margin-top: 10px;
+        }
+        .volumn-total {
+          position: relative;
+          float: left;
+          width: 50px;
+          margin-left: 8px;
+          background: #eaeaea;
+          border-top: 9px solid #fff;
+          border-bottom: 4px solid #efefef;
+          cursor: pointer;
+          margin-top: 10px;
+          .volumn-loading {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 3px;
+            height: 4px;
+            background: #45B39D;
+            cursor: pointer;
+          }
+          .volumn-current {
+            position: absolute;
+            top: -3px;
+            left: 2px;
+            width: 4px;
+            height: 10px;
+            background: #999;
+            cursor: pointer;
+          }
+
+        }
+      }
+
+      .single-mode, .playlist-mode {
+        float: left;
+        width: 90px;
+        height: 20px;
+        margin-left: -30px;
+        margin-top: 20px;
+        background: #FFF;
+        border: none;
+        outline: 0;
+        line-height: 20px;
+        color: #999;
+        font: normal normal 12px 'Microsoft Yahei';
+        cursor: pointer;
+      }
+      .player-control .single-mode {
+        display: none;
+      }
+
+      .single-mode-icon, .playlist-mode-icon {
+        float: left;
+        width: 17px;
+        height: 14px;
+        border-style: solid;
+        border-color: #FFF;
+        border-width: 3px;
+      }
+    }
+  }
+}
+
+.flx {
+  overflow: hidden;
+  zoom: 1;
+}
+
+.mb15 {
+  margin-bottom: 15px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.tab-link{
+  &.current {
+    border-top: 2px solid #45B39D !important;
+    border-bottom: 0 !important;
+  }
+}
+
+.tab-content {
+  display: none;
+  padding: 10px;
+  &.current {
+    display: block;
+  }
+}
+
+.clearfix {
+  zoom: 1;
+}

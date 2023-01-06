@@ -119,3 +119,20 @@
     }
   }
 }
+
+::ng-deep .p-dialog.register-dialog {
+  .p-dialog-header {
+    .p-dialog-title {
+      font-weight: 300;
+      font-size: 1.25rem;
+    }
+    .p-dialog-header-icon {
+      width: 1rem;
+      height: 2rem;
+    }
+
+    .p-dialog-header-close-icon {
+      font-size: 0.75rem;
+    }
+  }
+}
